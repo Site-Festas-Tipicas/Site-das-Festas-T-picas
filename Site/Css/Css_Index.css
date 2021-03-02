@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(238, 238, 26, 0.815);
+}
+main {
+    background-color:white;
+    margin: 80%, 100%;
+}
+header p {
+    font-size: 1.4em;
+    background-color: rgb(43, 173, 32);
+}
+
+header a {
+    float: left;
+    padding: 6px;
+    margin: auto;
+}
+header span {
+    color: turquoise;
+}
+a {
+    text-decoration: none;
+
+}
+:link{
+    color: blue;
+}
+:visited {
+    color: blue;
+}
+:active a{
+    color: grey;
+}
+:hover header a {
+    background-color: rgb(105, 218, 31);
+}
+ul {
+    list-style: none;
+}
+.box-col {
+    margin: 30%;
+}
+.box {
+    float: left;
+    padding: 5px;
+}
+.video {
+    margin-left: 20px;
+}
