@@ -1,42 +1,67 @@
 body {
-    background-color: rgba(238, 238, 26, 0.815);
+    background-color: rgba(238, 238, 26, 0.623);
 }
 main {
     background-color:white;
-    margin: 80%, 100%;
+   margin: 0px 10px;
+border-radius: 15px 15px 7px 7px;
 }
-header p {
+header {
+    margin-top: 0;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+h1 span {
+    color: rgba(117, 93, 255, 0.836);
+}
+header h1 {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 25px;
     font-size: 1.4em;
-    background-color: rgb(43, 173, 32);
-}
-
-header a {
-    float: left;
-    padding: 6px;
-    margin: auto;
-}
-header span {
-    color: turquoise;
-}
-a {
-    text-decoration: none;
-
-}
-:link{
-    color: blue;
-}
-:visited {
-    color: blue;
-}
-:active a{
-    color: grey;
-}
-:hover header a {
-    background-color: rgb(105, 218, 31);
+    
 }
 ul {
-    list-style: none;
+    list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
+nav {
+    padding-bottom: 10px;
+}
+p {
+ margin-left: 10px;
+}
+.faixa ul {
+	display: flex;
+        justify-content: center;
+        margin: 10px 3px;
+        background-color: rgba(95, 158, 160, 0.329);
+        border-radius: 10px;
+}
+#mapa {
+    text-align: center;
+}
+.faixa ul li {
+	list-style-type: none;
+    margin: auto;
+    margin-top: 0;
+}
+a :link{
+    color: blue;
+}
+ a:active {
+    color: grey;
+}
+a :visited {
+    color: blue;
+}
+ li :hover {
+    background-color: rgba(95, 158, 160, 0.753);
+    border-radius: 4px;
+}
+
 .box-col {
     margin: 30%;
 }
