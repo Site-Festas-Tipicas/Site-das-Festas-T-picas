@@ -109,3 +109,6 @@ figure a {
 figure :hover {
     text-decoration: underline;
 }
+#t{
+    font-size: 40px;
+}
