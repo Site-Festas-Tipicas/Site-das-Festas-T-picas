@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(230, 233, 21, 0.712);
+    
+}
+
+main {
+    background-color:white;
+   margin: 0px 10px;
+border-radius: 15px 15px 7px 7px;
+}
+
+header {
+    margin-top: 0;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+h1 span {
+    color: rgba(117, 93, 255, 0.836);
+}
+header h1 {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+nav {
+    padding-bottom: 10px;
+}
+article p, li {
+ margin-left: 10px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 20px;
+color: rgb(41, 40, 40);
+}
+
+.faixa ul {
+	display: flex;
+        justify-content: center;
+        margin: 10px 3px;
+        background-color: rgba(95, 158, 160, 0.329);
+        border-radius: 10px;
+}
+#mapa {
+    text-align: center;
+}
+.faixa ul li {
+	list-style-type: none;
+    margin: auto;
+    margin-top: 0;
+}
+a :link{
+    color: blue;
+}
+ a:active {
+    color: grey;
+}
+a :visited {
+    color: blue;
+}
+ li :hover {
+    background-color: rgba(95, 158, 160, 0.753);
+    border-radius: 4px;
+}
+
+.box-col {
+    margin: 30%;
+}
+.box {
+    float: left;
+    padding: 5px;
+}
+.video {
+    margin-left: 20px;
+}
+figure {
+    margin-left: 50px;
+}
+img {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+    border-radius: 7px;
+
+
+    border: rgba(198, 211, 18, 0.952) 2px solid;
+}
+h2, h3 {
+    font-family: 'RocknRoll One', sans-serif;
+}
+article h2, h3{
+    margin-left: 5px;
+}
+figure a {
+    color: rgb(41, 40, 40);
+
+}
+figure :hover {
+    text-decoration: underline;
+}
+#t{
+    font-size: 40px;
+}
