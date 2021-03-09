@@ -92,9 +92,9 @@ img {
     max-height: 500px;
     max-width: 100%;
     border-radius: 7px;
-
-
     border: rgba(198, 211, 18, 0.952) 2px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2, h3 {
     font-family: 'RocknRoll One', sans-serif;

@@ -1,7 +1,7 @@
 body {
     height: 100%;
     margin: 0;
-    background-color: rgba(230, 233, 21, 0.712);
+    background-color: #1b98e0;
     
 }
 
@@ -13,7 +13,7 @@ border-radius: 15px 15px 7px 7px;
 
 header {
     margin-top: 0;
-    background-color: aquamarine;
+    background-color: rgba(255, 252, 46, 0.781);
     border-radius: 15px;
 }
 h1 span {
@@ -48,7 +48,7 @@ color: rgb(41, 40, 40);
 	display: flex;
         justify-content: center;
         margin: 10px 3px;
-        background-color: rgba(95, 158, 160, 0.329);
+        background-color: rgba(255, 208, 0, 0.5);
         border-radius: 10px;
 }
 #mapa {
@@ -60,16 +60,16 @@ color: rgb(41, 40, 40);
     margin-top: 0;
 }
 a :link{
-    color: blue;
+    color: rgb(155, 4, 201);
 }
  a:active {
-    color: grey;
+    color: rgb(155, 4, 201);
 }
 a :visited {
-    color: blue;
+    color: rgb(155, 4, 201);
 }
  li :hover {
-    background-color: rgba(95, 158, 160, 0.753);
+    background-color: rgba(181, 192, 31, 0.541);
     border-radius: 4px;
 }
 
@@ -92,8 +92,8 @@ img {
     max-height: 500px;
     max-width: 100%;
     border-radius: 7px;
-
-
+    margin-left: auto;
+    margin-right: auto;
     border: rgba(198, 211, 18, 0.952) 2px solid;
 }
 h2, h3 {
