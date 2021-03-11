@@ -21,13 +21,8 @@ padding: 20px 0;
 }
 body
 {
-<<<<<<< Updated upstream
-	background-image: url(https://raw.githubusercontent.com/Site-Festas-Tipicas/Site-das-Festas-Tipicas/master/Site/Imagens/fundo.png);
+	background-image: url();
 		background-size: cover;
-=======
-	background-image: url(Imagens/fundo.jpg)
-	background-size: cover;
->>>>>>> Stashed changes
 	font-family: sans-serif;
 	margin-top: 0;
 
