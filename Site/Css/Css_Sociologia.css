@@ -21,10 +21,10 @@ h1 span {
 }
 header h1 {
     margin-top: 0px;
-    margin-left: 10px;
     margin-bottom: 25px;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     
 }
 ul {
