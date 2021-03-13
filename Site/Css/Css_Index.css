@@ -1,13 +1,13 @@
 body {
     height: 100%;
     margin: 0;
-    background-color: rgba(230, 233, 21, 0.712);
+    background-image: url(Img/Vermelho.png);
     
 }
 
 main {
-    background-color:white;
-   margin: 0px 10px;
+    background-color:rgba(255, 255, 255, 0.486);
+   margin: 100% 10%;
 border-radius: 15px 15px 7px 7px;
 }
 
