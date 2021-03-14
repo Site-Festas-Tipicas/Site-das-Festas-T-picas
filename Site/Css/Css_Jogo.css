@@ -41,20 +41,36 @@ body
 	margin-top: 25px;
 	align-items: center;
 }
-.conteudo
-{
-
-	width: 100%;
-	padding: 10px;
-	margin: auto;
+.quiz {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	color: rgb(39, 36, 36);
+	background-color: rgba(255, 255, 255, 0.212);
+	padding-left: 10px;
+}
+.correct {
+    color:darkslategrey;
+    background-color:lightseagreen;
 }
 
-.opcoes
-{
- 	color: rgb(0, 0, 0);
-	 align-items: center;
-	 width: 100%;
+.wrong {
+    color:rgb(255, 255, 255);
+    background-color:salmon;
 }
+.quiz-message {
+    border:1px solid #333;
+    border-radius:5px;
+    margin: 10px 0;
+    padding: 0 15px;
+    position:relative;
+}
+.quiz-message-close {
+    position:absolute;
+    top:3px;
+    right: 10px;
+}
+
+
 nav li
 {
  display:inline-block;
@@ -80,113 +96,3 @@ nav
 {
 	text-align: center;
 }
-.container{
-	max-width: auto;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
-	list-style: none;
-}
-.footer{
-	background-color: #00a2ff91;
-    padding: 70px 0;
-	margin-top: 2%;
-}
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #9802ac;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #ffffff;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #000000;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(0, 153, 255, 0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #000000;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #0099ff81;
-	background-color: #000000;
-}
-@media(max-width: 100%){
-  .footer-col{
-    width: 100%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 100%){
-  .footer-col{
-    width: 100%;
-}
-}
-.obter
-{
- text-align-last: center;
-}
-.footer-col
-{
- display: inline-block;
-}
-.li{
-	list-style: none;
-}
-.ul
-{
- list-style: none;
-}
-.obter:link, a:visited
-{
-	text-decoration:none;
-}
-.obter:hover {
-	text-decoration: underline; 
-	color: #f00;
-	background:rgba(162, 0, 255, 0.274);
-}
-.obter:active {
-	text-decoration: none
-	}
-	

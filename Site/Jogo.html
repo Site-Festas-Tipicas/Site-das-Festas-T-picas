@@ -6,146 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo</title>
     <link rel="stylesheet" type="text/css" href="Css/Css_Jogo.css">
+    <link rel="stylesheet" href="Css/Css_Foooter.css">
+    <script src="./js/jquery.min.js"></script>
+	<script src="./js/quiz-plugin.js"></script>
+    <script>
+        $(function(){
+            let options = {message: "Você acertou "
+                , questions: [{id:1
+                    , question: "1- Lorem Ipsum"
+                    , items :["item1", "item 2", "item 3", "item 4"]
+                    , correct: 0
+                }
+                , {id:2
+                    , question: "2- Lorem Ipsum"
+                    , items :["item1", "item 2", "item 3", "item 4"]
+                    , correct: 3
+                }
+                , {id:3
+                    , question: "3- Lorem Ipsum"
+                    , items :["item1", "item 2", "item 3", "item 4"]
+                    , correct: 1
+                }
+                , {id:4
+                    , question: "4- Lorem Ipsum"
+                    , items :["item1", "item 2", "item 3", "item 4"]
+                    , correct: 0
+                }]
+            }
+            $(".quiz").quiz(options);
+        })
+    </script>
 </head>
 <body>
      <main>
         <header>
             <div class="container-logo">
                 <div class="logo-texto">
-                    <h1>JOGO</h1>
+                    <h1>Juego</h1>
                 </div>
             </div>
             <nav>
              <ul>
-                 <li><a href="file:///C:/Users/Usuario/Desktop/festas%20tipicas/Site-das-Festas-Tipicas/Site/index.html">Festa de San Fermine </a> </li>
-                <li><a href="file:///C:/Users/Usuario/Desktop/festas%20tipicas/Site-das-Festas-Tipicas/Site/Jogo.html">Jogo</a> </li>
+                 <li><a href="file:///C:/Users/Usuario/Desktop/festas%20tipicas/Site-das-Festas-Tipicas/Site/index.html">Fiesta de San Fermín </a> </li>
+                <li><a href="file:///C:/Users/Usuario/Desktop/festas%20tipicas/Site-das-Festas-Tipicas/Site/Jogo.html">Juego</a> </li>
              </ul>
             </nav>
-        </header> 
-        <div class="jogodeperguntas"><h1>Teste o Seu Conhecimento</h1>
+        </header>
+        <div class="jogodeperguntas">
+            <h1>comprueba Tus Conocimientos</h1>
         </div>
        <br>
         
-        <div class="conteudo">
-        
-            <form>
-
-                <h3>1-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, 
-                    accusantium ut itaque tempore aut quibusdam porro autem, provident velit.</h3>
-            <br> 
-            <h3 class="nome">Resposta:</h3>
-            <select class="opcoes" name="assunto">
-                <option disabled="disabled" selected="selected">--Selecione a Opção</option>
-                <option>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit ab impedit doloribus
-                    quisquam sint ipsam voluptatum.</option>
-                <option>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi harum eaque nesciunt ab? Distinctio
-                    officia quia accusantium repellendus voluptatum vel.</option>
-         
-            </select>
-            <br>
-            <br>
-            <h3>2-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
-                accusantium ut itaque tempore aut quibusdam porro autem, provident velit.</h3>
-            <br> 
-            <h3 class="nome">Resposta:</h3>
-            <select class="opcoes" name="assunto">
-                <option disabled="disabled" selected="selected">--Selecione a Opção</option>
-                <option>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit ab impedit doloribus
-                    quisquam sint ipsam voluptatum.</option>
-                <option>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi harum eaque nesciunt ab? Distinctio
-                    officia quia accusantium repellendus voluptatum vel.</option>
-            
-            </select>
-            <br>
-            <br>
-            <h3>3-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
-                accusantium ut itaque tempore aut quibusdam porro autem, provident velit.</h3>
-                <br>
-                <h3 class="nome">Resposta:</h3>
-                <select class="opcoes" name="assunto">
-                    <option disabled="disabled" selected="selected">--Selecione a Opção</option>
-                    <option>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit ab impedit doloribus
-                        quisquam sint ipsam voluptatum.</option>
-                    <option>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi harum eaque nesciunt ab? Distinctio
-                        officia quia accusantium repellendus voluptatum vel.</option>
-                
-                </select>
-                
-                    <br>
-                    <br>
-                     <h3>4-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
-                                              accusantium ut itaque tempore aut quibusdam porro autem, provident velit.</h3> 
-                   <br>
-                                              <h3 class="nome">Resposta:</h3>
-                    <select class="opcoes" name="assunto">
-                        <option disabled="disabled" selected="selected">--Selecione a Opção</option>
-                        <option>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit ab impedit doloribus quisquam sint ipsam voluptatum.</option>
-                        <option>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi harum eaque nesciunt ab? Distinctio officia quia accusantium repellendus voluptatum vel.</option>
-                    
-                    </select>
-                    <br>
-                    <br>
-                       <center><h4 id="nivel"><b>Você já conhecia essa festa?</b></h4>
-                        
-                        <label class="radio">
-                            <input class="radio-one" type="radio" checked="checked" name="">
-                            <span class="checkmark"></span>
-                            Sim
+        <div class="quiz"></div>
+        <div id="pergunta">
+            <h4 id="nivel"><b>Você já conhecia essa festa?</b></h4>
+                <label class="radio">
+                        <input class="radio-one" type="radio" name="1">
+                            <span class="checkmark">Sim</span> 
                         </label>
-                        
-                        <label class="radio">
-                            <input class="radio-two" type="radio" checked="checked" name="">
-                            <span class="checkmark"></span>
-                            Não
-                        </label></center> 
+                            
+                <label class="radio">
+                        <input class="radio-one" type="radio" name="2">
+                        <span class="checkmark">Não</span>
+                </label>
+            </div>
              <br>
              <br>
-           
-              <a href="file:///C:/Users/Usuario/Desktop/festas%20tipicas/Site-das-Festas-Tipicas/Site/gabarito.html"><li class="obter"><h3>Obter gabarito.</h3></a></li>
-              <footer class="footer">
+            <footer >
                <div class="container">
                    <div class="row">
                        <div class="footer-col">
                            <h4>Cefet-NF</h4>
                            <ul>
                                <li>
-                                   <a href="http://www.cefet-rj.br/index.php/apresentacao">Apresentação</a>
-                                   <a href="http://www.cefet-rj.br/index.php/direcao-geral">Direção</a>
-                                   <a href="http://www.cefet-rj.br/index.php/conselhos-2">Conselhos</a>
-                                   <a href="http://www.cefet-rj.br/index.php/ouvidoria">Ouvidoria</a>
+                                   <a href="http://www.cefet-rj.br/index.php/apresentacao" target="blank">Apresentação</a>
+                                   <a href="http://www.cefet-rj.br/index.php/direcao-geral" target="blank">Direção</a>
+                                   <a href="http://www.cefet-rj.br/index.php/conselhos-2" target="blank">Conselhos</a>
+                                   <a href="http://www.cefet-rj.br/index.php/ouvidoria" target="blank">Ouvidoria</a>
                                </li>
                            </ul>
-               </div> 
-                            <div class="footer-col">
-                                <h4>Sobre Nois</h4>
-                                <ul>
-                                    <li>
-                                        <a href="#">Luiz Gabriel</a>
-                                        <a href="#">João Luiz</a>
-                                        <a href="#">Kauã</a>
-                                    </li>
-                                </ul>
                         </div>
-                                        <div class="footer-col"> 
-                                            <h4>Contato</h4>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://www.instagram.com/youthandcode/">Instagram</a>
-                                                    <a href="#">Gmail</a>
-                                                </li>
-                                            </ul>
-                                    </div>
-                                            <div class="footer-col">
-                                                <h4>Páginas</h4>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">Página Inicial</a>
-                                                        <a href="#">Jogo</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-              </section>
-            </footer>
-            </main> 
-</body>
+                        <div class="footer-col">
+                            <h4>Sobre Nós</h4>
+                            <ul>
+                                <li>
+                                    <a href="#" target="blank">Luiz Gabriel</a>
+                                    <a href="#" target="blank">João Luiz</a>
+                                    <a href="#" target="blank">Kauã</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col"> 
+                            <h4>Contato</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://www.instagram.com/youthandcode/" target="blank">Instagram</a>
+                                    <a href="#">Gmail</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Páginas</h4>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Página Inicial</a>
+                                    <a href="Jogo.html">Jogo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+        </footer>
+        </main> 
+    </body>
 </html>

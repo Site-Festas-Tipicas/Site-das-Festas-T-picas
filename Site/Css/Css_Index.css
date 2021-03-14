@@ -2,30 +2,58 @@ body {
     height: 100%;
     margin: 0;
     background-image: url(Img/Vermelho.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     
 }
 
 main {
     background-color:rgba(255, 255, 255, 0.486);
-   margin: 100% 10%;
-border-radius: 15px 15px 7px 7px;
+    margin: 0 3%;
 }
 
-header {
-    margin-top: 0;
-    background-color: aquamarine;
-    border-radius: 15px;
+header
+{
+width: 100%;
+background-color: rgba(0, 162, 255, 0.616);
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+padding: 20px 0;
 }
-h1 span {
-    color: rgba(117, 93, 255, 0.836);
+header a {
+    margin-top:5px;
+    padding: 0;
 }
-header h1 {
-    margin-top: 0px;
-    margin-bottom: 25px;
-    font-size: 2em;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+header ul {
+    padding: 0;
 }
+.logo-texto
+{
+ margin: auto;
+ color: white;
+}
+nav li
+{
+ display:inline-block;
+ margin: 0 10px;
+}
+nav li a
+{
+ font-size: 24px;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ padding: 10px 15px;
+ border-radius: 12px;
+}
+nav li a:hover
+{
+ background-color: rgba(42, 56, 253, 0.315);
+ 
+}
+
 ul {
     list-style-type: none;
 }
@@ -33,9 +61,10 @@ a{
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
-nav {
-    padding-bottom: 10px;
-}
+
+ a i {
+     color: rgb(255, 72, 0);
+ }
 article p, li {
  margin-left: 10px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -43,21 +72,11 @@ article p, li {
 color: rgb(41, 40, 40);
 }
 
-.faixa ul {
-	display: flex;
-        justify-content: center;
-        margin: 10px 3px;
-        background-color: rgba(95, 158, 160, 0.329);
-        border-radius: 10px;
-}
+
 #mapa {
     text-align: center;
 }
-.faixa ul li {
-	list-style-type: none;
-    margin: auto;
-    margin-top: 0;
-}
+
 a :link{
     color: blue;
 }
@@ -94,6 +113,15 @@ img {
     border: rgba(198, 211, 18, 0.952) 2px solid;
     margin-left: auto;
     margin-right: auto;
+}
+@media (max-width: 600px)
+{
+    ul {
+        padding-left: 0;
+    }
+    article {
+        text-align: center;
+    }
 }
 h2, h3 {
     font-family: 'RocknRoll One', sans-serif;
