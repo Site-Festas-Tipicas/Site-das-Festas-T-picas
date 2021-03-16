@@ -23,10 +23,10 @@ footer ul {
 ul{
 	list-style: none;
 }
-@media (max-width:500px)
+@media (max-width:600px)
 {
 .footer-col {
-	margin: 10px;
+	margin: 15px;
 }
 
 a {
