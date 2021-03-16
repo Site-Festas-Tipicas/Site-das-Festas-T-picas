@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Festas Típicas San Fermín- Jogo</title>
+    <title>Jogo-San Fermín</title>
     <link rel="stylesheet" type="text/css" href="Css/Css_Jogo.css">
     <link rel="stylesheet" href="Css/Css_Foooter.css">
+    <link rel="stylesheet" href="Css/Css_Audio.css">
     <script src="./js/jquery.min.js"></script>
 	<script src="./js/quiz-plugin.js"></script>
     <script>
         $(function(){
             let options = {message: "Você acertou "
                 , questions: [{id:1
-                    , question: "1-¿A qué hora empiezan los Sanfermines?"
+                    , question: "1-¿A qué hora empiezan los Sanfermines?"  
                     , items :["A las doce.", "Alrededor de las nueve de la mañana, con el encendido oficial de las luces del bar para atender los primeros almuerzos.", "No hay un tiempo establecido. La gente, procedente de todos los rincones, acude en masa a la Plaza del Ayuntamiento. En cierto momento, sin saber por qué, la juventud de la región saltó el portón y entró al interior del ayuntamiento. Se desata la locura colectiva y se lanza un cohete para señalar que la fiesta está comenzando.", "A las 24 horas"]
                     , correct: 0
                 }
@@ -38,8 +39,8 @@
     </script>
 </head>
 <body>
-     <main>
-        <header>
+     <main> 
+        <header> 
             <div class="container-logo">
                 <div class="logo-texto">
                     <h1>Juego</h1>
@@ -51,13 +52,60 @@
                 <li><a href="Jogo.html">Juego</a> </li>
              </ul>
             </nav>
-        </header>
+        </header> 
         <div class="jogodeperguntas">
             <h1>comprueba Tus Conocimientos</h1>
         </div>
-       <br>
-        
-        <div class="quiz"></div>
+
+        <div class="audi01">
+       <audio src="#"> </audio>
+       <button>Questão 1</button>
+       <script>
+           const button = document.querySelector('button')
+           button.addEventListener('click', function){
+               const audio = document.querySelector('audio')
+               audio.play()
+           }
+       </script>
+       </div>
+
+    <div class="audi02">
+        <audio src="#"> </audio>
+        <button>Questão 1</button>
+        <script>
+            const button = document.querySelector('button')
+            button.addEventListener('click', function){
+                const audio = document.querySelector('audio')
+                audio.play()
+            }
+        </script>
+    </div>
+
+    <div class="audi03">
+        <audio src="#"> </audio>
+        <button>Questão 3</button>
+        <script>
+            const button = document.querySelector('button')
+            button.addEventListener('click', function){
+                const audio = document.querySelector('audio')
+                audio.play()
+            }
+        </script>
+    </div>
+
+    <div class="audi04">
+        <audio src="#"> </audio>
+        <button>Questão 4</button>
+        <script>
+            const button = document.querySelector('button')
+            button.addEventListener('click', function){
+                const audio = document.querySelector('audio')
+                audio.play()
+            }
+        </script>
+    </div>
+
+    <div class="quiz"></div>
              <br>
             <footer>
                <div class="container">
