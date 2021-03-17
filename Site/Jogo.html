@@ -15,12 +15,12 @@
             let options = {message: "Você acertou "
                 , questions: [{id:1
                     , question: "1-¿A qué hora empiezan los Sanfermines?"  
-                    , items :["A las doce.", "Alrededor de las nueve de la mañana, con el encendido oficial de las luces del bar para atender los primeros almuerzos.", "No hay un tiempo establecido. La gente, procedente de todos los rincones, acude en masa a la Plaza del Ayuntamiento. En cierto momento, sin saber por qué, la juventud de la región saltó el portón y entró al interior del ayuntamiento. Se desata la locura colectiva y se lanza un cohete para señalar que la fiesta está comenzando.", "A las 24 horas"]
+                    , items :["A las doce.", "Alrededor de las nueve de la mañana, con el encendido oficial de las luces del bar para atender los primeros almuerzos.", "No hay un tiempo establecido. La gente, procedente de todos los rincones, acude en masa a la Plaza del Ayuntamiento. En cierto momento, sin saber por qué, la juventud de la región saltan el portón y entran al interior del ayuntamiento. Se desata la locura colectiva y se lanza un cohete para señalar que la fiesta está comenzando.", "A las 24 horas"]
                     , correct: 0
                 }
                 , {id:2
                     , question: "2- ¿Están todas las personas de acuerdo con la tauromaquia?"
-                    , items :["No hay protestas contra.", "Hay muchas protestas de la gente contra las corridas de toros.", "Yo soy a favor.", "Yo estoy en contra."]
+                    , items :["No hay protestas contra.", "Hay muchas protestas de la gente contra.", "Los toros son muy bien tratados.", "Las personas se dan cuenta de algunos abusos, pero aún no han hecho nada."]
                     , correct: 1
                 }
                 , {id:3
@@ -56,56 +56,17 @@
         <div class="jogodeperguntas">
             <h1>comprueba Tus Conocimientos</h1>
         </div>
-
-        <div class="audi01">
-       <audio src="#"> </audio>
-       <button>Questão 1</button>
-       <script>
-           const button = document.querySelector('button')
-           button.addEventListener('click', function){
-               const audio = document.querySelector('audio')
-               audio.play()
-           }
-       </script>
-       </div>
-
-    <div class="audi02">
-        <audio src="#"> </audio>
-        <button>Questão 1</button>
-        <script>
-            const button = document.querySelector('button')
-            button.addEventListener('click', function){
-                const audio = document.querySelector('audio')
-                audio.play()
-            }
-        </script>
-    </div>
-
-    <div class="audi03">
-        <audio src="#"> </audio>
-        <button>Questão 3</button>
-        <script>
-            const button = document.querySelector('button')
-            button.addEventListener('click', function){
-                const audio = document.querySelector('audio')
-                audio.play()
-            }
-        </script>
-    </div>
-
-    <div class="audi04">
-        <audio src="#"> </audio>
-        <button>Questão 4</button>
-        <script>
-            const button = document.querySelector('button')
-            button.addEventListener('click', function){
-                const audio = document.querySelector('audio')
-                audio.play()
-            }
-        </script>
-    </div>
-
-    <div class="quiz"></div>
+        <div class="audios">
+       <h3>Audio de la pregunta 1</h3>
+            <audio src="audio/Questão 1.mp3" controls></audio>
+            <h3>Audio de la pregunta 2</h3>
+            <audio src="audio/Questão 2.mp3" controls></audio>
+            <h3>Audio de la pregunta 3</h3>
+            <audio src="audio/Questão 3.mp3" controls></audio>
+            <h3>Audio de la pregunta 4</h3>
+            <audio src="audio/Questão 4.mp3" controls></audio>
+        </div>
+         <div class="quiz"></div>
              <br>
             <footer>
                <div class="container">
